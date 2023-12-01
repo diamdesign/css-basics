@@ -9,34 +9,36 @@ body {
 
 article {
 	background-color: aqua;
-	padding: 20px;
+	padding: 10px;
 	margin-block: 5px;
 }
 
 .static {
-	position: static;
+	right: 10px;
 }
 
 .relative {
 	position: relative;
-	top: 800px;
-	left: 10px;
+	top: 10px;
+	left: 60px;
 }
 
 .fixed {
 	position: fixed;
-	top: 600px;
-	left: 50px;
+	right: 0;
+	bottom: 0;
+	/* left: 0; */
 }
 
-.absolute {
+.parent-relative {
+	background-color: aquamarine;
+	position: relative;
+	height: 150px;
+}
+
+.child-absolute {
 	position: absolute;
-	top: 300px;
-	left: 50px;
-}
-
-.sticky {
-	position: sticky;
-	top: 50px;
-	left: 10px;
+	/* right: 0; */
+	left: 0;
+	bottom: 0;
 }
