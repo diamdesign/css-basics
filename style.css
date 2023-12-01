@@ -1,4 +1,9 @@
 * {
-  margin: 0;
-  padding: 0;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background-color: lightblue;
+	padding: 20px;
 }

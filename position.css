@@ -1,4 +1,14 @@
 * {
-  margin: 0;
-  padding: 0;
+	margin: 0;
+	padding: 0;
+}
+
+article {
+	background-color: aqua;
+	padding: 20px;
+	margin-block: 5px;
+}
+
+.static {
+	position: static;
 }
